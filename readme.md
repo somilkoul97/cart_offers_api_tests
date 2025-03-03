@@ -1,6 +1,7 @@
 Zomato Cart Offer Assignment
 
-Project Overview
+Project Overview:
+
 This project tests the Zomato cart offers feature using MockServer for mocking user segments and RestAssured for validating cart value post-offer application.
 
 Tech Stack
@@ -23,7 +24,8 @@ curl --location 'http://localhost:1080/api/v1/cart/apply_offer' \
 
 
 2.Run Tests:
-mvn clean test
+mvn clean test OR
+Right Click - testNg.xml - Run as Test NG Suite
 
 Test Coverage
 The suite covers:
@@ -34,7 +36,7 @@ The suite covers:
 - Large cart discounts.
 - No offers scenario.
 
-Total Test Cases: 10
+Total Test Cases: 9
 
 Mocks
 User segments are mocked in `/mockserver/initializerJson.json`:
