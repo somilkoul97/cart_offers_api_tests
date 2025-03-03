@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Zomato Cart Offer Tests">
+	<test name="Cart Offer API Tests">
+		<classes>
+			<class name="com.zomato.tests.OfferTest" />
+		</classes>
+	</test>
+</suite>

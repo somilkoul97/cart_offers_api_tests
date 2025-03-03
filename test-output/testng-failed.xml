@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Zomato Cart Offer Tests]">
+  <test thread-count="5" name="Cart Offer API Tests(failed)">
+    <classes>
+      <class name="com.zomato.tests.OfferTest">
+        <methods>
+          <include name="testInvalidSegmentUser"/>
+          <include name="setup"/>
+          <include name="testNoOfferForP3"/>
+        </methods>
+      </class> <!-- com.zomato.tests.OfferTest -->
+    </classes>
+  </test> <!-- Cart Offer API Tests(failed) -->
+</suite> <!-- Failed suite [Zomato Cart Offer Tests] -->

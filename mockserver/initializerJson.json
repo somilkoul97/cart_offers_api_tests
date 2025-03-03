@@ -1,0 +1,205 @@
+[
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/user_segment",
+      "queryStringParameters": {
+        "user_id": ["1"]
+      }
+    },
+    "httpResponse": {
+      "statusCode": 200,
+      "body": "{\"segment\":\"p1\"}",
+      "headers": {
+        "Content-Type": ["application/json"]
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/user_segment",
+      "queryStringParameters": {
+        "user_id": ["2"]
+      }
+    },
+    "httpResponse": {
+      "statusCode": 200,
+      "body": "{\"segment\":\"p2\"}",
+      "headers": {
+        "Content-Type": ["application/json"]
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/user_segment",
+      "queryStringParameters": {
+        "user_id": ["3"]
+      }
+    },
+    "httpResponse": {
+      "statusCode": 200,
+      "body": "{\"segment\":\"p3\"}",
+      "headers": {
+        "Content-Type": ["application/json"]
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/user_segment",
+      "queryStringParameters": {
+        "user_id": ["999"]
+      }
+    },
+    "httpResponse": {
+      "statusCode": 404,
+      "body": "{\"error\":\"User not found\"}",
+      "headers": {
+        "Content-Type": ["application/json"]
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "POST",
+      "path": "/api/v1/offer"
+    },
+    "httpResponse": {
+      "statusCode": 200,
+      "body": "{\"response_msg\":\"success\"}",
+      "headers": {
+        "Content-Type": ["application/json"]
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "POST",
+      "path": "/api/v1/cart/apply_offer",
+      "body": "{\"cart_value\":200,\"user_id\":1,\"restaurant_id\":1}"
+    },
+    "httpResponse": {
+      "statusCode": 200,
+      "body": "{\"cart_value\":190}",
+      "headers": {
+        "Content-Type": ["application/json"]
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "POST",
+      "path": "/api/v1/cart/apply_offer",
+      "body": "{\"cart_value\":200,\"user_id\":2,\"restaurant_id\":1}"
+    },
+    "httpResponse": {
+      "statusCode": 200,
+      "body": "{\"cart_value\":180}",
+      "headers": {
+        "Content-Type": ["application/json"]
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "POST",
+      "path": "/api/v1/cart/apply_offer",
+      "body": "{\"cart_value\":200,\"user_id\":3,\"restaurant_id\":1}"
+    },
+    "httpResponse": {
+      "statusCode": 200,
+      "body": "{\"cart_value\":200}",
+      "headers": {
+        "Content-Type": ["application/json"]
+      }
+    },
+    
+    "httpRequest": {
+    "method": "POST",
+    "path": "/api/v1/cart/apply_offer",
+    "body": "{\"cart_value\":5,\"user_id\":1,\"restaurant_id\":1}"
+  },
+  "httpResponse": {
+    "statusCode": 200,
+    "body": "{\"cart_value\":0}",
+    "headers": {
+      "Content-Type": ["application/json"]
+    }
+  }
+},
+{
+  "httpRequest": {
+    "method": "POST",
+    "path": "/api/v1/cart/apply_offer",
+    "body": "{\"cart_value\":0,\"user_id\":1,\"restaurant_id\":1}"
+  },
+  "httpResponse": {
+    "statusCode": 200,
+    "body": "{\"cart_value\":0}",
+    "headers": {
+      "Content-Type": ["application/json"]
+    }
+  }
+},
+{
+  "httpRequest": {
+    "method": "POST",
+    "path": "/api/v1/cart/apply_offer",
+    "body": "{\"cart_value\":300,\"user_id\":1,\"restaurant_id\":1}"
+  },
+  "httpResponse": {
+    "statusCode": 200,
+    "body": "{\"cart_value\":240}",
+    "headers": {
+      "Content-Type": ["application/json"]
+    }
+  }
+},
+{
+  "httpRequest": {
+    "method": "POST",
+    "path": "/api/v1/cart/apply_offer",
+    "body": "{\"cart_value\":200,\"user_id\":4,\"restaurant_id\":2}"
+  },
+  "httpResponse": {
+    "statusCode": 200,
+    "body": "{\"cart_value\":200}",
+    "headers": {
+      "Content-Type": ["application/json"]
+    }
+  }
+},
+{
+  "httpRequest": {
+    "method": "POST",
+    "path": "/api/v1/cart/apply_offer",
+    "body": "{\"cart_value\":199,\"user_id\":5,\"restaurant_id\":1}"
+  },
+  "httpResponse": {
+    "statusCode": 200,
+    "body": "{\"cart_value\":174.13}",
+    "headers": {
+      "Content-Type": ["application/json"]
+    }
+  }
+},
+{
+  "httpRequest": {
+    "method": "POST",
+    "path": "/api/v1/cart/apply_offer",
+    "body": "{\"cart_value\":10000,\"user_id\":6,\"restaurant_id\":1}"
+  },
+  "httpResponse": {
+    "statusCode": 200,
+    "body": "{\"cart_value\":9500}",
+    "headers": {
+      "Content-Type": ["application/json"]
+    }
+  }
+  }
+  
+]

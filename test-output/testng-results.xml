@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-03T06:31:24 IST" name="Zomato Cart Offer Tests" finished-at="2025-03-03T06:31:27 IST" duration-ms="3266">
+    <groups>
+    </groups>
+    <test started-at="2025-03-03T06:31:24 IST" name="Cart Offer API Tests" finished-at="2025-03-03T06:31:27 IST" duration-ms="3266">
+      <class name="com.zomato.tests.OfferTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.zomato.tests.OfferTest@7c37508a]" started-at="2025-03-03T06:31:24 IST" name="setup" finished-at="2025-03-03T06:31:24 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkFlatXForOneSegment()[pri:0, instance:com.zomato.tests.OfferTest@7c37508a]" started-at="2025-03-03T06:31:24 IST" name="checkFlatXForOneSegment" finished-at="2025-03-03T06:31:25 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFlatXForOneSegment -->
+        <test-method signature="testApplyFlatXOfferForP1()[pri:0, instance:com.zomato.tests.OfferTest@7c37508a]" started-at="2025-03-03T06:31:25 IST" name="testApplyFlatXOfferForP1" finished-at="2025-03-03T06:31:27 IST" duration-ms="2074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplyFlatXOfferForP1 -->
+        <test-method signature="testApplyFlatXPercentOfferForP2()[pri:0, instance:com.zomato.tests.OfferTest@7c37508a]" started-at="2025-03-03T06:31:27 IST" name="testApplyFlatXPercentOfferForP2" finished-at="2025-03-03T06:31:27 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplyFlatXPercentOfferForP2 -->
+        <test-method signature="testDecimalValueRounding()[pri:0, instance:com.zomato.tests.OfferTest@7c37508a]" started-at="2025-03-03T06:31:27 IST" name="testDecimalValueRounding" finished-at="2025-03-03T06:31:27 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDecimalValueRounding -->
+        <test-method signature="testHighCartValueLargeDiscount()[pri:0, instance:com.zomato.tests.OfferTest@7c37508a]" started-at="2025-03-03T06:31:27 IST" name="testHighCartValueLargeDiscount" finished-at="2025-03-03T06:31:27 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHighCartValueLargeDiscount -->
+        <test-method signature="testMissingOfferForValidSegment()[pri:0, instance:com.zomato.tests.OfferTest@7c37508a]" started-at="2025-03-03T06:31:27 IST" name="testMissingOfferForValidSegment" finished-at="2025-03-03T06:31:27 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMissingOfferForValidSegment -->
+        <test-method signature="testMultipleOffersSequentially()[pri:0, instance:com.zomato.tests.OfferTest@7c37508a]" started-at="2025-03-03T06:31:27 IST" name="testMultipleOffersSequentially" finished-at="2025-03-03T06:31:27 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleOffersSequentially -->
+        <test-method signature="testOfferHigherThanCartValue()[pri:0, instance:com.zomato.tests.OfferTest@7c37508a]" started-at="2025-03-03T06:31:27 IST" name="testOfferHigherThanCartValue" finished-at="2025-03-03T06:31:27 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOfferHigherThanCartValue -->
+        <test-method signature="testZeroCartValue()[pri:0, instance:com.zomato.tests.OfferTest@7c37508a]" started-at="2025-03-03T06:31:27 IST" name="testZeroCartValue" finished-at="2025-03-03T06:31:27 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testZeroCartValue -->
+      </class> <!-- com.zomato.tests.OfferTest -->
+    </test> <!-- Cart Offer API Tests -->
+  </suite> <!-- Zomato Cart Offer Tests -->
+</testng-results>
